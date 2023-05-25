@@ -1,0 +1,302 @@
+nav{
+    background: #844D1A;
+}
+
+.x{
+    margin:0;
+    justify-content: center;
+}
+
+.x ul{
+    margin: 0 !important;
+}
+
+.cafe{
+    margin-right: 5px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.centrar{
+    display: flex;
+}
+
+.xf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.navbar-nav{
+    gap: 15px;
+}
+
+.portada img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.cafeteria{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5% 0%;
+}
+
+.cafeteria img{
+    width: 50%;
+    height: 50%
+}
+
+.sobrenosotros{
+    position: relative;
+}
+
+.sobrenosotros::before{
+    background: url(/img/fondo.jpg);
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+.reseñas{
+    position: relative;
+}
+
+.reseñas::before{
+    background: url(/img/fondo.jpg);
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+
+.menuu{
+    background: #9e5715;
+}
+
+.comidas{
+    background: #9e5715;
+}
+
+.galeria{
+    background: #9e5715;
+    color: white;
+}
+.p{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.menu{
+    display: flex;
+    margin: 0 auto;
+}
+
+.imagen{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.iconos{
+    width: 100px;
+    height: 100px;
+}
+
+.cajas-iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    border-left: 3px solid black;
+}
+.cajas-iconos:first-child{
+    border-left: none;
+}
+
+.btn{
+    background-color: #9e5715;
+    color: white;
+}
+
+.comidas-cards img{
+    object-fit: cover;
+}
+.evento-caja img{
+    width: 55%;
+    height: 55%;
+    object-fit: cover;
+}
+.evento-caja p{
+    margin: 0 50px 0 50px;
+}
+.carrusel img{
+    object-fit: cover;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+.card-body img{
+    object-fit: cover;
+}
+.boton span{
+    background-color: #9e5715;
+    padding: 40px;
+    border-radius: 50%;
+}
+.boton2 span{
+    background-color: black;
+    padding: 40px;
+    border-radius: 50%;
+}
+.acercar{
+    width: 50%;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.card-comida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 767.98px) { 
+    .cafeteria{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cafeteria img{
+        width: 100%;
+        height: 50%
+    }
+    .cafeteria h3{
+        margin-top: 2rem;
+    }
+    .sobrenosotros h2{
+        font-size: 1.4rem;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu h3{
+        margin-top: 20px;
+    }
+    .cajita-icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cajas-iconos{
+        border: none;
+    }
+    .k{
+        border: none;
+    }
+    .comidas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .eventito{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .evento-caja img{
+        margin-top: 5%;
+        width: 100%;
+        height: 55%;
+        object-fit: cover;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .acercar{
+        display: none;
+    }
+    .boton2{
+        display: none;
+    }
+    .medio h3,p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1366px){
+    .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    } 
+    .medio h3{
+        margin-top: 20px;
+    }
+    .imagen{
+        width: 80%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1440px){
+    .menu {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .cafeteria{
+        margin-top: 0 !important;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px){
+    .cafeteria {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 5% 0%;
+        flex-direction: column;
+    }
+    .cafeteria img {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 5%;
+    }
+}
+
+
+
+@media (max-width: 425px){
+    .imagen {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .portada img {
+        object-fit: cover;
+        width: 100%;
+        margin-top: 13%;
+    }
+}
