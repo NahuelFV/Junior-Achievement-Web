@@ -52,7 +52,7 @@ nav{
 }
 
 .sobrenosotros::before{
-    background: url(./img/fondo.jpg);
+    background: url(../img/fondo.jpg);
     background-size: cover;
     content: "";
     position: absolute;
@@ -68,7 +68,7 @@ nav{
 }
 
 .reseñas::before{
-    background: url(./img/fondo.jpg);
+    background: url(../img/fondo.jpg);
     background-size: cover;
     content: "";
     position: absolute;
